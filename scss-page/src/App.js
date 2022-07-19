@@ -1,14 +1,12 @@
 import React from 'react';
-import Left from './Section-Left/Left';
 import Navbar from './Navbar/Navbar';
-
-const App = () => {
+import Main from './Main/Main-Section';
+const App =()=>{
   return (
     <>
-      <Navbar/>
-      <Left/>
+    <Navbar/>
+    <Main/>
     </>
-  );
+);
 }
-
 export default App;
