@@ -1,11 +1,12 @@
 import React from 'react';
 import './section-right.scss';
-
+import Card from '../Card/Card';
 const Right = () => {
     return (
         <>
             <aside>
                 <div className="right-main">
+                <Card>
                     <div className="right-container-top">
                         <div className="right-title-top">
                             <h4>hope condition</h4>
@@ -19,6 +20,8 @@ const Right = () => {
                             <p>annual   ----<br/>income</p>
                         </div>
                     </div>
+                </Card>
+                <Card>
                     <div className="right-container-bottom">
                         <div className="right-title-bottom">
                             <h4><span> Personal Information</span> (private)</h4>
@@ -33,6 +36,7 @@ const Right = () => {
                             <a href="/"><i class="fa-solid fa-building-columns"></i> <span> Transfer account not set</span></a>
                         </div>
                     </div>
+                </Card>
                 </div>
             </aside>
         </>

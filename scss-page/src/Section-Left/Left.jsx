@@ -1,10 +1,12 @@
 import React from 'react';
 import './section-left.scss';
-
+import Card from '../Card/Card';
+import Form from './Form';
 const Left = () => {
     return (
         <>
-            <main className="left-container">
+        <Card>
+            <main>
                 <div className="left-UI">
                     <section className='left-center'>
                         <div className="left-logo">
@@ -20,7 +22,7 @@ const Left = () => {
                             <a href='/'><i className="fa-solid fa-pen"></i> edit</a>
                         </div>
                     </section>
-                    <form action="#">
+                    {/* <form action="#">
                         <div className='left-input-field'>
                             <input type="text" className='left-input-field' placeholder='Self-introduction'/>
                             <div className='edit'> <a href="/"><i className="fa-solid fa-pen"></i> edit</a></div>
@@ -36,9 +38,25 @@ const Left = () => {
                             <div className='addition'> <a href="/"><i className="fa-solid fa-square-plus"></i> addition</a></div>
                             <label htmlFor="Add Qualifications">Add qualification</label>
                         </div>
-                    </form>
+                    </form> */}
+                    <Form 
+                        placeholder='Self-introduction'
+                        name='edit'
+                        label='Fill in self-introduction'
+                    />
+                    <Form 
+                        placeholder='Working history'
+                        name='edit'
+                        label='Fill in self-introduction'
+                    />
+                    <Form 
+                        placeholder='Self-introduction'
+                        name='edit'
+                        label='Fill in self-introduction'
+                    />
                 </div>
             </main>
+        </Card>
         </>
     );
 }
