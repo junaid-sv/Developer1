@@ -23,6 +23,10 @@
                     a{
                         color:#322f2f;
                         font-size: 12px;
+                        &:hover{
+                            color: aqua;
+                            transition: all 0.3s linear;
+                        }
                     }
                     .active{
                         color: aqua;
