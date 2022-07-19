@@ -51,11 +51,103 @@
         }
         p {
           @include icon-general;
+
+          // .left-container{
+          //         .left-UI{
+          //             border-radius: 5px;
+          //             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          //             width: 600px;
+          //             padding: 15px;
+          //             .left-center{
+          //             display: flex;
+          //             padding: 20px;
+          //             .left-logo{
+          //                 background-color: #3c9779;
+          //                 color: white;
+          //                 font-weight: bold;
+          //                 padding: 20px;
+          //                 border-radius: 8px;
+          //                 width: 125px;
+          //                 height: 125px;
+          //                 .left-heading{
+          //                     text-align: center;
+          //                     font-size: 70px;
+          //                 }
+          //             }
+          //             .left-content{
+          //                 line-height: 30px;
+          //                 padding: 5px 0 10px 30px;
+          //                 flex: 0 0 65%;
+          //                 h2{
+          //                     font-size: 15px;
+          //                     color: gray;
+          //                     word-spacing: 10px;
+          //                     .left-name{
+          //                         color: aquamarine;
+          //                         font-size: 16px;
+          //                     }
+          //                 }
+          //                 a{
+          //                 @include icon-general;
+          //                 display: block;
+          //                     i{
+          //                         padding:4px 5px 0 10px;
+          //                         color:#061f66;
+          //                         font-size: 14px;
+          //                     }
+          //                 }
+          //                 p{
+          //                     @include icon-general;
+          //                 }
+          //             }
+          //             .left-edit{
+          //                 a{
+          //                     @include icon-general;
+          //                 }
+          //             }
+          //         }
+          //         form{
+          //             padding: 20px 20px 60px 20px;
+          //             .left-input-field{
+          //                 position: relative;
+          //                 input{
+          //                     display: block;
+          //                     outline: none;
+          //                     border: none;
+          //                     border-bottom: 1px solid aqua;
+          //                     width: 100%;
+          //                     padding: 4px 0;
+          //                     margin: 35px 0 10px 0;
+          //                 }
+          //                 ::placeholder{
+          //                     color: #061f66;
+          //                     font-weight: bold;
+          //                 }
+          //                 .edit{
+          //                     @include icon-position;
+          //                     a{
+          //                         @include icon-general;
+          //                     }
+          //                 }
+          //                 .addition{
+          //                     @include icon-position;
+          //                     a{
+          //                         @include icon-general;
+          //                     }
+          //                 }
+          //                 label{
+          //                     @include icon-general;
+          //                     margin-bottom: 50px;
+          //                 }
+          //             }
+          //         }
+          //       }
+          //       a {
+          //         cursor: pointer;
+          //         @include icon-general;
+          //       }
+          //     }
         }
-      }
-      a {
-        cursor: pointer;
-        @include icon-general;
       }
     }
   }
