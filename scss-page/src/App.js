@@ -1,10 +1,11 @@
-import './App.css';
+import React from 'react';
 import Navbar from './Navbar/Navbar';
 
-function App() {
+const App = () => {
   return (
+    <>
     <Navbar/>
+    </>
   );
 }
-
 export default App;
