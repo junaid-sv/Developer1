@@ -1,5 +1,5 @@
 import React from 'react';
-import './section-left.scss'
+import './section-left.scss';
 
 const Left = () => {
     return (
@@ -12,28 +12,28 @@ const Left = () => {
                         </div>
                         <div className="left-content">
                             <h2><span className='left-name'>Nabeel</span>  Ahmad  00 </h2>
-                            <p><i className="fa-solid fa-location-dot"></i>Location area</p>
-                            <p><i className="fa-solid fa-briefcase"></i>Current Location</p>
+                            <a href='/' ><i className="fa-solid fa-location-dot"></i>Location area</a>
+                            <a href='/'><i className="fa-solid fa-briefcase"></i>Current Location</a>
                             <p>Experienced occupation: ---</p>
                         </div>
                         <div className='left-edit'>
-                            <p><i class="fa-solid fa-pen"></i> edit</p>
+                            <a href='/'><i className="fa-solid fa-pen"></i> edit</a>
                         </div>
                     </section>
                     <form action="#">
                         <div className='left-input-field'>
                             <input type="text" className='left-input-field' placeholder='Self-introduction'/>
-                            <div className='edit'><i className="fa-solid fa-pen"></i> edit</div>
+                            <div className='edit'> <a href="/"><i className="fa-solid fa-pen"></i> edit</a></div>
                             <label htmlFor="self-introduction">Fill in self-introduction</label>
                         </div>
                         <div className='left-input-field'>
                             <input type="text" className='left-input-field' placeholder='Working history'/>
-                            <div className='addition'><i class="fa-solid fa-square-plus"></i> addition</div>
+                            <div className='addition'> <a href="/"><i className="fa-solid fa-square-plus"></i> addition</a></div>
                             <label htmlFor="Add working history">Add working history</label>
                         </div>
                         <div className='left-input-field'>
                             <input type="text" className='left-input-field' placeholder='All qualifications'/>
-                            <div className='addition'><i class="fa-solid fa-square-plus"></i> addition</div>
+                            <div className='addition'> <a href="/"><i className="fa-solid fa-square-plus"></i> addition</a></div>
                             <label htmlFor="Add Qualifications">Add qualification</label>
                         </div>
                     </form>
