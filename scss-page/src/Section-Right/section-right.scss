@@ -1,0 +1,73 @@
+@mixin  icon-general {
+    font-size: 12px;
+    font-size: 12px;
+    color: #8e9cab;
+}
+@mixin background{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+aside{
+    width: 35%;
+    .right-container-top{
+       @include background; 
+        background-color: #f5f5f5;
+        .right-title-top{
+            display: flex;
+            justify-content:space-between;
+            h4{
+                font-size: 14px;
+                color: aquamarine;
+            }
+            p{
+                @include icon-general;
+                cursor: pointer;
+            }
+        }
+        .right-content-top{
+            padding: 15px 0;
+            line-height: 25px;
+            p{
+                font-size: 12px;
+                color: #585151;
+            }
+        }
+    }
+    .right-container-bottom{
+        @include background;
+        .right-title-bottom{
+            display: flex;
+            justify-content:space-between;
+            h4{
+                font-size: 14px;
+                color: #afacac;
+                span{
+                    color: aquamarine;
+                }
+            }
+            p{
+                @include icon-general;
+                cursor: pointer;
+            }
+        }
+        .right-content-bottom{
+            padding: 10px 0;
+            line-height: 25px;
+            a{
+                display: block;
+                font-size: 12px;
+                color: #39466a;
+                span{
+                    color:#bbb;
+                }
+                &:hover{
+                    color: #579371;
+                    transition: all 0.3s linear;
+                }
+            }
+        }
+
+    }
+}
