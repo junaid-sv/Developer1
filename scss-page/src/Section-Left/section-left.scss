@@ -1,0 +1,101 @@
+// icon position function
+@mixin icon-position {
+    position: absolute;
+    bottom: 35px;
+    right: 0;
+}
+// icon size color
+@mixin icon-general {
+    font-size: 12px;
+    color: #8e9cab;
+}
+
+.left-container{
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    max-width: 950px;
+    .left-UI{
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        width: 65%;
+        padding: 15px;
+        .left-center{
+        display: flex;
+        padding: 20px;
+        .left-logo{
+            background-color: #579371;
+            color: white;
+            font-weight: bold;
+            padding: 20px;
+            border-radius: 8px;
+            width: 125px;
+            height: 125px;
+            .left-heading{
+                text-align: center;
+                font-size: 70px;    
+            }
+        }
+        .left-content{
+            line-height: 25px;
+            padding: 15px 25px;
+            flex: 0 0 65%;
+            h2{
+                font-size: 15px;
+                color: gray;
+                word-spacing: 10px;
+                .left-name{
+                    color: aquamarine;
+                    font-size: 16px;
+                }
+            }
+            p{
+               @include icon-general;
+                i{
+                    padding:4px 5px 0 10px;
+                    color:#061f66;
+                    font-size: 14px;
+                }
+            }
+        }
+        .left-edit{
+            p{
+                @include icon-general;
+                cursor:pointer;
+            }
+        }
+    }
+    form{
+        padding: 20px 20px 50px 20px;
+        .left-input-field{
+            position: relative;
+            input{
+                display: block;
+                outline: none;
+                border: none;
+                border-bottom: 1px solid aqua;
+                width: 100%;
+                padding: 4px 0;
+                margin: 25px 0 10px 0;
+            }
+            ::placeholder{
+                color: #061f66;
+                font-weight: bold;
+            }
+            .edit{
+                @include icon-position;
+                @include icon-general;
+                cursor:pointer;
+            }
+            .addition{
+                @include icon-position;
+                @include icon-general;
+                cursor:pointer;
+            }
+            label{
+                @include icon-general;
+            }
+        }
+    }
+   }
+}
