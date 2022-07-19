@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.scss';
 
-const Navbar =()=>{
+const Navbar = () => {
     return (
         <>
         <div className="navbar">
