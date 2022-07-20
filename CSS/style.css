@@ -1,86 +1,63 @@
 /* Welcome Section  */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0%;
-}
-.full_overlay_section_1{
+.main-section{
     border: 3px solid red;
     margin-left: 10px;
 }
-.full_overlay_section_1 .container{
-    margin: auto;
-    max-width: 970px;
-    padding: 0 15px;
-    width: 100%;
-}
-main h1{
-    margin: 20px 0;
+.welcome_Section {
     text-align: center;
 }
-#welcome_Section p{
+.welcome_Section p{
+    margin:auto;
     line-height: 25px;
-    text-align: center;
-    word-spacing: 2px;
+    width: 70%;
 }
 #welcome_Section a:link{
-    color: palevioletred;
+    color:#cd6b8b;
 }
-.title_section_1 {
-    padding: 0 0 50px 100px;
+.main-section .container .welcome-title {
+    position: relative;
+    left: 8%;
+    bottom: 20px;
 }
-.title_section_1 h1{
+.welcome-title h1{
     color: red;
 }
-
 /* Feature Section */
-.full_overlay_section_2{
-    margin: 20px 0 20px 10px;
+.feature{
     border: 3px solid red;
+    margin: 20px 0 20px 10px;
 }
-.full_overlay_section_2 .title_section_2{
-    padding: 30px 0 0 100px;
+.feature .feature-title{
+    left: 8%;
+    position: relative;
 }
-.full_overlay_section_2 .title_section_2 h1{
+.feature .feature-title h1{
     color: red;
 }
-.full_overlay_section_2 .container{
-    width: 100%;
-    margin: auto;
-    padding: 0 15px;
-    max-width: 1050px;
-}
-#feature_Section{
-    margin-top: 40px;
-}
-#feature_Section .feature_flex{
-    align-items: center;
+.feature .feature-section .feature-flex{
+    align-items: start;
     display: flex;
-    gap: 50px;
-    justify-content:space-between;
-    line-height: 40px;
-    text-align: center;
-}
-.feature_Gfc h2{
-    padding: 15px 0;
-}
-.feature_Gfc p{
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
     line-height: 30px;
-    width: 275px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
 }
-.feature_Gfc a{
-    text-decoration: none;
+.feature-content h2{
+    color: #423b3b;
 }
-.feature_Gfc button{
+.feature-content{
+    margin: 15px 0;
+}
+.feature-content button{
     background-color: #4CAF50;
     border: none;
     color: white;
-    margin: 15px 0;
-    outline: none;
     padding: 16px 30px;
 }
-.feature_Gfc button:hover{
+.feature-content button:hover{
     background-color:#008CBA;
     cursor: pointer;
 }
-
