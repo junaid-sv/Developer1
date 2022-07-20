@@ -1,5 +1,6 @@
 import React from 'react';
 import './section-left.scss'
+import Form from './Form';
 
 const Left = () => {
     return (
@@ -20,23 +21,27 @@ const Left = () => {
                             <p><i class="fa-solid fa-pen"></i> edit</p>
                         </div>
                     </section>
-                    <form action="#">
-                        <div className='left-input-field'>
-                            <input type="text" className='left-input-field' placeholder='Self-introduction'/>
-                            <div className='edit'><i className="fa-solid fa-pen"></i> edit</div>
-                            <label htmlFor="self-introduction">Fill in self-introduction</label>
-                        </div>
-                        <div className='left-input-field'>
-                            <input type="text" className='left-input-field' placeholder='Working history'/>
-                            <div className='addition'><i class="fa-solid fa-square-plus"></i> addition</div>
-                            <label htmlFor="Add working history">Add working history</label>
-                        </div>
-                        <div className='left-input-field'>
-                            <input type="text" className='left-input-field' placeholder='All qualifications'/>
-                            <div className='addition'><i class="fa-solid fa-square-plus"></i> addition</div>
-                            <label htmlFor="Add Qualifications">Add qualification</label>
-                        </div>
-                    </form>
+                    <Form 
+                        placeholder ='Self-introduction'
+                        name ='edit'
+                        label = 'Fill in self-introduction'
+                        class ='edit'
+                        icon = 'fa-solid fa-pen'
+                    />
+                    <Form 
+                        placeholder ='Working history'
+                        name ='addition'
+                        label = 'Add working history'
+                        class ='addition'
+                        icon = 'fa-solid fa-square-plus'
+                    />
+                    <Form 
+                        placeholder ='Add qualifications'
+                        name ='addition'
+                        label = 'Add qualification'
+                        class ='addition'
+                        icon = 'fa-solid fa-square-plus'
+                    />
                 </div>
             </main>
         </>
