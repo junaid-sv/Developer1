@@ -22,37 +22,26 @@ const Left = () => {
                             <a href='/'><i className="fa-solid fa-pen"></i> edit</a>
                         </div>
                     </section>
-                    {/* <form action="#">
-                        <div className='left-input-field'>
-                            <input type="text" className='left-input-field' placeholder='Self-introduction'/>
-                            <div className='edit'> <a href="/"><i className="fa-solid fa-pen"></i> edit</a></div>
-                            <label htmlFor="self-introduction">Fill in self-introduction</label>
-                        </div>
-                        <div className='left-input-field'>
-                            <input type="text" className='left-input-field' placeholder='Working history'/>
-                            <div className='addition'> <a href="/"><i className="fa-solid fa-square-plus"></i> addition</a></div>
-                            <label htmlFor="Add working history">Add working history</label>
-                        </div>
-                        <div className='left-input-field'>
-                            <input type="text" className='left-input-field' placeholder='All qualifications'/>
-                            <div className='addition'> <a href="/"><i className="fa-solid fa-square-plus"></i> addition</a></div>
-                            <label htmlFor="Add Qualifications">Add qualification</label>
-                        </div>
-                    </form> */}
                     <Form 
                         placeholder='Self-introduction'
                         name='edit'
                         label='Fill in self-introduction'
+                        icon= 'fa-solid fa-pen' 
+                        class ='edit'
                     />
                     <Form 
                         placeholder='Working history'
-                        name='edit'
+                        name='addition'
                         label='Fill in self-introduction'
+                        icon = 'fa-solid fa-square-plus'
+                        class = 'addition'
                     />
                     <Form 
                         placeholder='Self-introduction'
-                        name='edit'
+                        name='addition'
                         label='Fill in self-introduction'
+                        icon = 'fa-solid fa-square-plus'
+                        class = 'addition'
                     />
                 </div>
             </main>

@@ -10,7 +10,7 @@
     color: #8e9cab;
 }
 form{
-    padding: 20px 20px 60px 20px;
+    padding:10px 25px 10px 25px;
     .left-input-field{
         position: relative;
         input{
@@ -40,7 +40,6 @@ form{
         }
         label{
             @include icon-general;
-            margin-bottom: 50px;
         }
     }
 }

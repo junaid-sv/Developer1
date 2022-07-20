@@ -62,40 +62,5 @@ main{
                 }
             }
         } 
-        form{
-            padding: 20px 20px 60px 20px;
-            .left-input-field{
-                position: relative;
-                input{
-                    display: block;
-                    outline: none;
-                    border: none;
-                    border-bottom: 1px solid aqua;
-                    width: 100%;
-                    padding: 4px 0;
-                    margin: 35px 0 10px 0;
-                }
-                ::placeholder{
-                    color: #061f66;
-                    font-weight: bold;
-                }
-                .edit{
-                    @include icon-position;
-                    a{
-                        @include icon-general;
-                    }
-                }
-                .addition{
-                    @include icon-position;
-                    a{
-                        @include icon-general;
-                    }
-                }
-                label{
-                    @include icon-general;
-                    margin-bottom: 50px;
-                }
-            }
-        }
     }
 }
