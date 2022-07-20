@@ -1,0 +1,44 @@
+// icon position function
+@mixin icon-position {
+    bottom: 35px;
+    position: absolute;
+    right: 0;
+}
+// icon size color
+@mixin icon-general {
+    font-size: 12px;
+    color: #8e9cab;
+}
+form{
+    padding: 10px 20px 10px 20px;
+    .left-input-field
+    {
+        position: relative;
+        input{
+            display: block;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid aqua;
+            width: 100%;
+            padding: 4px 0;
+            margin: 25px 0 10px 0;
+        }
+            ::placeholder{
+                color: #061f66;
+                font-weight: bold;
+            }
+            .edit{
+                @include icon-position;
+                @include icon-general;
+                cursor:pointer;
+            }
+            .addition{
+                @include icon-position;
+                @include icon-general;
+                cursor:pointer;
+            }
+            label{
+                @include icon-general;
+            }
+    }
+}
