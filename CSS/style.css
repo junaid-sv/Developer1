@@ -1,0 +1,51 @@
+/* define classes */
+.border-color{
+    border: 3px solid red;
+    margin-left: 10px; 
+}
+.center{
+    text-align: center;
+}
+.set-title{
+    margin-top: 2rem; 
+}
+/* main welcome */
+.main{
+    line-height: 30px;
+}
+.main .container{
+    padding: 0 12rem;
+}
+.welcome_Section a{
+    color:#cd6b8b;
+} 
+.title{
+    padding:0 0 3rem 6rem;
+}
+.title h1{
+    color: red;
+    margin: 0;
+}
+/* feature */
+.feature{
+    margin: 20px 0 0 10px;
+}
+.feature-flex{
+    display: flex;
+    padding: 0 4rem;
+}
+.feature-content{
+    padding: 0 4rem;
+    margin-bottom: 1rem;
+}
+.feature-content h2{
+    color: #423b3b;
+    margin: 0;
+}
+.feature-content button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 30px;
+    cursor: pointer;
+}
