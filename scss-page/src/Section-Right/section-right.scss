@@ -1,7 +1,7 @@
+@import './Variables.scss';
 @mixin  icon-general {
     font-size: 12px;
-    font-size: 12px;
-    color: #8e9cab;
+    color: $light_sky;
 }
 @mixin background{
     border-radius: 4px;
@@ -9,13 +9,6 @@
     padding: 20px;
     margin-bottom: 20px;
 }   
-$light_grey: #f5f5f5;
-$aqua_light: aquamarine;
-$dark_grey:#585151;
-$light_blue:#afacac;
-$dark_blue:#39466a;
-$light_green:#579371;
-$light_white:#bbb;
 aside{
     width: 35%;
     line-height: 25px;
