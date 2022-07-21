@@ -4,34 +4,40 @@
     color: #8e9cab;
 }
 @mixin background{
+    border-radius: 4px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-}
+}   
+$light_grey: #f5f5f5;
+$aqua_light: aquamarine;
+$dark_grey:#585151;
+$light_blue:#afacac;
+$dark_blue:#39466a;
+$light_green:#579371;
+$light_white:#bbb;
 aside{
     width: 35%;
+    line-height: 25px;
     .right-container-top{
        @include background; 
-        background-color: #f5f5f5;
+        background-color: $light_grey;
         .right-title-top{
             display: flex;
             justify-content:space-between;
             h4{
                 font-size: 14px;
-                color: aquamarine;
+                color: $aqua_light;
             }
-            p{
+            a{
                 @include icon-general;
-                cursor: pointer;
             }
         }
         .right-content-top{
             padding: 15px 0;
-            line-height: 25px;
             p{
                 font-size: 12px;
-                color: #585151;
+                color: $dark_grey;
             }
         }
     }
@@ -42,28 +48,26 @@ aside{
             justify-content:space-between;
             h4{
                 font-size: 14px;
-                color: #afacac;
+                color: $light_blue;
                 span{
-                    color: aquamarine;
+                    color: $aqua_light;
                 }
             }
-            p{
+            a{
                 @include icon-general;
-                cursor: pointer;
             }
         }
         .right-content-bottom{
             padding: 10px 0;
-            line-height: 25px;
             a{
                 display: block;
                 font-size: 12px;
-                color: #39466a;
+                color: $dark_blue;
                 span{
-                    color:#bbb;
+                    color:$light_white;
                 }
                 &:hover{
-                    color: #579371;
+                    color: $light_green;
                     transition: all 0.3s linear;
                 }
             }
