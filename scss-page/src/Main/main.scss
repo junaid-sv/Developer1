@@ -1,11 +1,8 @@
 .main-container{
-    width: 100%;
-    padding: 0 15px;
-    margin: auto;
-    max-width:980px;
+    padding: 0 13rem;
     .main-grid{
         display: flex;
-        justify-content: center;
-        gap: 30px;
+        justify-content: space-between;
+
     }
 }
