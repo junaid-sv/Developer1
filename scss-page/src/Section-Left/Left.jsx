@@ -10,17 +10,15 @@ const Left = () => {
                 <div className="left-UI">
                 <Card>
                     <section className='left-center'>
-                        <div className="left-logo">
                             <h2 className='left-heading'>N</h2>
-                        </div>
                         <div className="left-content">
                             <h2 className='font'><span className='left-name'>Nabeel</span>  Ahmad  00 </h2>
-                            <a href='#' className='font'><i className="fa-solid fa-location-dot"></i>Location area</a>
-                            <a href='# ' className='font'><i className="fa-solid fa-briefcase"></i>Current Location</a>
+                            <a href='/' className='font'><i className="fa-solid fa-location-dot"></i>Location area</a>
+                            <a href='/ ' className='font'><i className="fa-solid fa-briefcase"></i>Current Location</a>
                             <p>Experienced occupation: ---</p>
                         </div>
                         <div className='left-edit'>
-                            <a href='#'><i class="fa-solid fa-pen"></i> edit</a>
+                            <a href='/'><i class="fa-solid fa-pen"></i> edit</a>
                         </div>
                     </section>
                     <Form 
