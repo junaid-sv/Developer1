@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-$blue :#111942;
-$dark_grey:#322f2f;
-$aqua :aqua;
-$see_green:#6f9f84;
-$white : #ffffff;
+@import 'Variables.scss';
 
 @mixin  button {
     border: none;
