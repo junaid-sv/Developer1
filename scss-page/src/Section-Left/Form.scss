@@ -14,13 +14,14 @@ $aqua: aqua;
     color: $light_blue;
 }
 form{
-    padding: 5px 30px 15px 30px;
+    margin:5px 30px 50px 30px;
     .left-input-field
     {
         position: relative;
         input{
             display: block;
             border: none;
+            outline: none;
             border-bottom: 1px solid $aqua;
             width: 100%;
             padding: 4px 0;

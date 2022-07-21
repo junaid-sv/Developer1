@@ -1,5 +1,5 @@
 // icon position function
-$see_green: #579371;
+$see_green: #629c7b;
 $light_blue: #8e9cab;
 $blue:#061f66;
 $white:#ffffff;
@@ -29,16 +29,15 @@ $aqua_light : aquamarine;
                 .left-center{
                     display: flex;
                     padding: 30px;
-                .left-logo{
-                    background-color: $see_green;
-                    color: $white;
-                    font-weight: bold;
-                    padding: 1rem 2rem;
-                    border-radius: 8px;
                     .left-heading{
-                        font-size: 80px;    
+                        padding: 18px 30px;
+                        width: 25%;
+                        height:7.8rem;
+                        font-size: 80px;  
+                        background-color: $see_green;
+                        color: $white;
+                        border-radius: 8px; 
                     }
-                }
                 .left-content{
                         line-height: 25px;
                         padding: 15px 25px;
@@ -64,6 +63,7 @@ $aqua_light : aquamarine;
                     }
                 }
                 .left-edit{
+                    justify-content: flex-start ;
                     a{
                         @include icon-general;
                         cursor:pointer;
