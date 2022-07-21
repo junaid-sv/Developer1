@@ -1,51 +1,60 @@
 /* define classes */
-.border-color{
-    border: 3px solid red;
-    margin-left: 10px; 
+* {
+  margin: 0;
 }
-.center{
-    text-align: center;
+.set-content {
+  /* padding: 0 1rem !important; */
 }
-.set-title{
-    margin-top: 2rem; 
+.border-color {
+  border: 3px solid red;
+  margin: 10px 0 25px 10px;
+}
+.center {
+  text-align: center;
 }
 /* main welcome */
-.main{
-    line-height: 30px;
+.main {
+  line-height: 30px;
 }
-.main .container{
-    padding: 0 12rem;
+.main-section {
+  padding: 0 13rem 5rem 13rem;
+  position: relative;
 }
-.welcome_Section a{
-    color:#cd6b8b;
-} 
-.title{
-    padding:0 0 3rem 6rem;
+.welcome_Section h1 {
+  padding: 10px 0;
 }
-.title h1{
-    color: red;
-    margin: 0;
+.welcome_Section a {
+  color: #cd6b8b;
+}
+.title {
+  position: absolute;
+  left: 7rem;
+  bottom: 4.5rem;
+  color: red;
 }
 /* feature */
-.feature{
-    margin: 20px 0 0 10px;
+.feature .set-title {
+  margin: 2.5rem 0 3rem 6.5rem;
+  color: red;
 }
-.feature-flex{
-    display: flex;
-    padding: 0 4rem;
+.feature-flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.feature-content{
-    padding: 0 4rem;
-    margin-bottom: 1rem;
+.feature-content {
+  width: 30%;
+  padding: 0 5rem 2rem 5rem;
 }
-.feature-content h2{
-    color: #423b3b;
-    margin: 0;
+.feature-content h2 {
+  color: #423b3b;
+  margin-bottom: 15px;
 }
-.feature-content button{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 16px 30px;
-    cursor: pointer;
+.feature-content button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 30px;
+  cursor: pointer;
+  margin-top: 15px;
 }
