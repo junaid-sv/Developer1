@@ -1,4 +1,8 @@
 // icon position function
+$blue_dark:#061f66;
+$light_blue:#8e9cab;
+$aqua: aqua;
+
 @mixin icon-position {
     bottom: 35px;
     position: absolute;
@@ -7,24 +11,23 @@
 // icon size color
 @mixin icon-general {
     font-size: 12px;
-    color: #8e9cab;
+    color: $light_blue;
 }
 form{
-    padding: 10px 20px 10px 20px;
+    padding: 5px 30px 15px 30px;
     .left-input-field
     {
         position: relative;
         input{
             display: block;
-            outline: none;
             border: none;
-            border-bottom: 1px solid aqua;
+            border-bottom: 1px solid $aqua;
             width: 100%;
             padding: 4px 0;
             margin: 25px 0 10px 0;
         }
             ::placeholder{
-                color: #061f66;
+                color: $blue_dark;
                 font-weight: bold;
             }
             .edit{
