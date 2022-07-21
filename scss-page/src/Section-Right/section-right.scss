@@ -1,4 +1,7 @@
 @import './Variables.scss';
+.overlay{
+    background-color:$white !important;
+}
 @mixin  icon-general {
     font-size: 12px;
     color: $light_sky;
@@ -12,10 +15,10 @@
 aside{
     width: 35%;
     line-height: 25px;
-    .right-container-top{
+    .right-container{
        @include background; 
         background-color: $light_grey;
-        .right-title-top{
+        .right-title{
             display: flex;
             justify-content:space-between;
             h4{
@@ -34,21 +37,8 @@ aside{
             }
         }
     }
-    .right-container-bottom{
-        @include background;
-        .right-title-bottom{
-            display: flex;
-            justify-content:space-between;
-            h4{
-                font-size: 14px;
-                color: $light_blue;
-                span{
-                    color: $aqua_light;
-                }
-            }
-            a{
-                @include icon-general;
-            }
+    span{
+        color: $light_blue;;
         }
         .right-content-bottom{
             padding: 10px 0;
@@ -57,7 +47,7 @@ aside{
                 font-size: 12px;
                 color: $dark_blue;
                 span{
-                    color:$light_white;
+                    color:$dark_blue;
                 }
                 &:hover{
                     color: $light_green;
@@ -67,4 +57,3 @@ aside{
         }
 
     }
-}

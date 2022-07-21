@@ -5,8 +5,8 @@ const Right = () => {
     return (
         <>
             <aside>
-                <div className="right-container-top">
-                    <div className="right-title-top">
+                <div className="right-container">
+                    <div className="right-title">
                         <h4>hope condition</h4>
                         <a href='/'><i className="fa-solid fa-pen"></i> edit</a>
                     </div>
@@ -18,9 +18,9 @@ const Right = () => {
                         <p>annual   ----<br/>income</p>
                     </div>
                 </div>
-                <div className="right-container-bottom">
-                    <div className="right-title-bottom">
-                        <h4><span> Personal Information</span> (private)</h4>
+                <div className="right-container overlay">
+                    <div className="right-title">
+                        <h4> Personal Information <span>(private)</span> </h4>
                         <a href='/'><i className="fa-solid fa-pen"></i> edit</a>
                     </div>
                     <div className="right-content-bottom">
