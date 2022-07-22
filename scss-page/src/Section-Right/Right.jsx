@@ -24,12 +24,12 @@ const Right = () => {
                         <a href='/'><i className="fa-solid fa-pen"></i> edit</a>
                     </div>
                     <div className="right-content-bottom">
-                        <a href="/"><i class="fa-solid fa-user"></i>  --- ---</a>
+                        <a href="/"><i className="fa-solid fa-user"></i>  --- ---</a>
                         <a href="/">---</a>
-                        <a href="/"><i class="fa-solid fa-envelope"></i>  junaidahmad@southvillesol.com</a>
-                        <a href="/"><i class="fa-solid fa-phone-flip"></i> ---</a>
-                        <a href="/"><i class="fa-solid fa-house"></i> ---</a>
-                        <a href="/"><i class="fa-solid fa-building-columns"></i> <span> Transfer account not set</span></a>
+                        <a href="/"><i className="fa-solid fa-envelope"></i>  junaidahmad@southvillesol.com</a>
+                        <a href="/"><i className="fa-solid fa-phone-flip"></i> ---</a>
+                        <a href="/"><i className="fa-solid fa-house"></i> ---</a>
+                        <a href="/"><i className="fa-solid fa-building-columns"></i> <span> Transfer account not set</span></a>
                     </div>
                 </div>
             </aside>

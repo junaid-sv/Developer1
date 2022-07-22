@@ -2,6 +2,9 @@
 .overlay{
     background-color:$white !important;
 }
+@mixin icon-size {
+    font-size: 12px;
+}
 @mixin  icon-general {
     font-size: 12px;
     color: $light_sky;
@@ -32,7 +35,7 @@ aside{
         .right-content-top{
             padding: 15px 0;
             p{
-                font-size: 12px;
+                @include icon-size;
                 color: $dark_grey;
             }
         }
@@ -44,8 +47,8 @@ aside{
             padding: 10px 0;
             a{
                 display: block;
-                font-size: 12px;
                 color: $dark_blue;
+                @include icon-size;
                 span{
                     color:$dark_blue;
                 }
