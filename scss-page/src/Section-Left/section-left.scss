@@ -19,56 +19,50 @@ $aqua_light : aquamarine;
 .font{
     font-size: 15px;
 }
-
 .left-container{
     padding: 0 15rem;
-        .left-UI{
-            display: grid;
-            grid-template-columns: repeat(2, 550px 300px);
-            padding: 15px;
-                .left-center{
-                    display: flex;
-                    padding: 30px;
-                    .left-heading{
-                        padding: 18px 30px;
-                        width: 25%;
-                        height:7.8rem;
-                        font-size: 80px;  
-                        background-color: $see_green;
-                        color: $white;
-                        border-radius: 8px; 
-                    }
-                .left-content{
-                        line-height: 25px;
-                        padding: 15px 25px;
-                        flex: 0 0 65%;
-                    h2{
-                        color: $gray;
-                        word-spacing: 10px;
-                        .left-name{
-                            color: $aqua_light;
-                            font-size: 16px;
-                        }
-                    }
-                    a{
-                        @include icon-general;
-                        display: block;
-                        i{
-                            padding:4px 5px 0 10px;
-                            color:$blue;
-                        }
-                    }
-                    p{
-                        @include icon-general;
+    .left-UI{
+        display: grid;
+        grid-template-columns: repeat(2, 550px 300px);
+        padding: 15px;
+        .left-center{
+            display: flex;
+            padding: 30px;
+            .left-heading{
+                padding: 18px 30px;
+                font-size: 80px;  
+                background-color: $see_green;
+                color: $white;
+                border-radius: 8px; 
+            }
+            .left-content{
+                line-height: 25px;
+                padding: 15px 25px;
+                flex: 1;
+                h2{
+                    color: $gray;
+                    word-spacing: 10px;
+                    .left-name{
+                        color: $aqua_light;
+                        font-size: 16px;
                     }
                 }
-                .left-edit{
-                    justify-content: flex-start ;
-                    a{
-                        @include icon-general;
-                        cursor:pointer;
+                a{
+                    display: block;
+                    @include icon-general;
+                    i{
+                        padding:4px 5px 0 10px;
+                        color:$blue;
                     }
+                }
+                p{
+                    @include icon-general;
                 }
             }
+            a{
+                cursor:pointer;
+                @include icon-general;
+            }
+        }
     }
 }
