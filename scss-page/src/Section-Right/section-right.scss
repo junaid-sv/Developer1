@@ -3,20 +3,18 @@
     background-color:$white !important;
 }
 @mixin icon-size {
-    font-size: 12px;
+    font-size: 13px;
 }
 @mixin  icon-general {
     font-size: 12px;
     color: $light_sky;
 }
 @mixin background{
-    border-radius: 4px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px;
     margin-bottom: 20px;
 }   
 aside{
-    width: 35%;
     line-height: 25px;
     .right-container{
        @include background; 
@@ -24,6 +22,7 @@ aside{
         .right-title{
             display: flex;
             justify-content:space-between;
+            gap: 20px;
             h4{
                 font-size: 14px;
                 color: $aqua_light;
@@ -49,12 +48,11 @@ aside{
                 display: block;
                 color: $dark_blue;
                 @include icon-size;
-                span{
-                    color:$dark_blue;
+                i{
+                    padding-right: 10px;
                 }
-                &:hover{
-                    color: $light_green;
-                    transition: all 0.3s linear;
+                span{
+                    color:$light_white;
                 }
             }
         }
