@@ -14,8 +14,8 @@ const Right = () => {
                         <p>Occupation--</p>
                         <p>On duty -----</p>
                         <p>Work Style--</p>
-                        <p>Facility ----- <br/>form</p>
-                        <p>annual   ----<br/>income</p>
+                        <p>Facility ----- <br />form</p>
+                        <p>annual   ----<br />income</p>
                     </div>
                 </div>
                 <div className="right-container overlay">

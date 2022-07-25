@@ -1,60 +1,59 @@
-@import './Variables.scss';
-.overlay{
-    background-color:$white !important;
+@import "./Variables.scss";
+.overlay {
+  background-color: $white !important;
 }
 @mixin icon-size {
-    font-size: 13px;
+  font-size: 13px;
 }
-@mixin  icon-general {
-    font-size: 12px;
-    color: $light_sky;
+@mixin icon-general {
+  font-size: 12px;
+  color: $light_sky;
 }
-@mixin background{
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 20px;
-    margin-bottom: 20px;
-}   
-aside{
-    line-height: 25px;
-    .right-container{
-       @include background; 
-        background-color: $light_grey;
-        .right-title{
-            display: flex;
-            justify-content:space-between;
-            gap: 20px;
-            h4{
-                font-size: 14px;
-                color: $aqua_light;
-            }
-            a{
-                @include icon-general;
-            }
-        }
-        .right-content-top{
-            padding: 15px 0;
-            p{
-                @include icon-size;
-                color: $dark_grey;
-            }
-        }
+@mixin background {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+aside {
+  line-height: 25px;
+  .right-container {
+    @include background;
+    background-color: $light_grey;
+    .right-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      h4 {
+        font-size: 14px;
+        color: $aqua_light;
+      }
+      a {
+        @include icon-general;
+      }
     }
-    span{
-        color: $light_blue;;
-        }
-        .right-content-bottom{
-            padding: 10px 0;
-            a{
-                display: block;
-                color: $dark_blue;
-                @include icon-size;
-                i{
-                    padding-right: 10px;
-                }
-                span{
-                    color:$light_white;
-                }
-            }
-        }
-
+    .right-content-top {
+      padding: 15px 0;
+      p {
+        @include icon-size;
+        color: $dark_grey;
+      }
     }
+  }
+  span {
+    color: $light_blue;
+  }
+  .right-content-bottom {
+    padding: 10px 0;
+    a {
+      display: block;
+      color: $dark_blue;
+      @include icon-size;
+      i {
+        padding-right: 10px;
+      }
+      span {
+        color: $light_white;
+      }
+    }
+  }
+}
