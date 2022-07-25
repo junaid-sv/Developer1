@@ -6,9 +6,9 @@ import Card from '../Card/Card';
 const Left = () => {
     return (
         <>
-            <main className="left-container">
-                <div className="left-UI">
-                    <Card>
+            <main className="left-main">
+                <Card>
+                    <div className="left-container">
                         <section className='left-center'>
                             <h2 className='left-heading'>N</h2>
                             <div className="left-content">
@@ -42,8 +42,8 @@ const Left = () => {
                             class='addition'
                             icon='fa-solid fa-square-plus'
                         />
-                    </Card>
-                </div>
+                    </div>
+                </Card>
             </main>
         </>
     );

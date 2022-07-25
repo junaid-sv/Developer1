@@ -1,9 +1,7 @@
-.main-container{
-    padding: 0 13rem;
-    .main-grid{
-        display: flex;
-        justify-content: space-around;
-        
-
-    }
+.main-container {
+  padding: 0 12rem;
+  .main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 600px 340px);
+  }
 }

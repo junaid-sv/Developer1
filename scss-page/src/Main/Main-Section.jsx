@@ -4,14 +4,14 @@ import Left from '../Section-Left/Left';
 import Right from '../Section-Right/Right';
 
 const Main = () => {
-    return(
+    return (
         <>
-        <div className='main-container'>
-            <div className="main-grid">
-                <Left/>
-                <Right/>
+            <div className='main-container'>
+                <div className="main-grid">
+                    <Left />
+                    <Right />
+                </div>
             </div>
-        </div>
         </>
     );
 }

@@ -1,10 +1,4 @@
 @import "Variables.scss";
-// icon position function
-@mixin icon-position {
-  position: absolute;
-  bottom: 35px;
-  right: 0;
-}
 // icon size color
 @mixin icon-general {
   font-size: 12px;
@@ -13,15 +7,13 @@
 .font {
   font-size: 15px;
 }
-.left-container {
-  padding: 0 15rem;
-  .left-UI {
-    display: grid;
-    grid-template-columns: repeat(2, 550px 300px);
-    padding: 15px;
+.left-main {
+  padding: 1rem;
+  .left-container {
+    padding: 2rem;
     .left-center {
       display: flex;
-      padding: 30px;
+      padding-bottom: 2rem;
       .left-heading {
         padding: 18px 30px;
         font-size: 80px;
@@ -50,6 +42,11 @@
           }
         }
         p {
+          @include icon-general;
+        }
+      }
+      .left-edit {
+        a {
           @include icon-general;
         }
       }
