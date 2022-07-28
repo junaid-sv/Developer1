@@ -1,6 +1,6 @@
-@import "./Variables.scss";
+@import "/src/Variable-Global.scss";
 .overlay {
-  background-color: $white !important;
+  background-color: $light_grey;
 }
 @mixin icon-size {
   font-size: 13px;
@@ -13,7 +13,6 @@ aside {
   line-height: 25px;
   padding: 1rem;
   .right-container {
-    background-color: $light_grey;
     padding: 20px;
     margin-bottom: 20px;
     .right-title {

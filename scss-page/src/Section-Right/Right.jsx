@@ -6,7 +6,7 @@ const Right = () => {
         <>
             <aside>
                 <Card>
-                    <div className="right-container">
+                    <div className="right-container overlay ">
                         <div className="right-title">
                             <h4>hope condition</h4>
                             <a href='/'><i className="fa-solid fa-pen"></i> edit</a>
@@ -21,7 +21,7 @@ const Right = () => {
                     </div>
                 </Card>
                 <Card>
-                    <div className="right-container overlay">
+                    <div className="right-container">
                         <div className="right-title">
                             <h4> Personal Information <span>(private)</span> </h4>
                             <a href='/'><i className="fa-solid fa-pen"></i> edit</a>

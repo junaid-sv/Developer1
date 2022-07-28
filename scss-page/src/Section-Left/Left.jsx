@@ -10,11 +10,11 @@ const Left = () => {
                 <Card>
                     <div className="left-container">
                         <section className='left-center'>
-                            <h2 className='left-heading'>N</h2>
+                            <h2 className='left-profile'>N</h2>
                             <div className="left-content">
-                                <h2 className='font'><span className='left-name'>Nabeel</span>  Ahmad  00 </h2>
-                                <a href='/' className='font'><i className="fa-solid fa-location-dot"></i>Location area</a>
-                                <a href='/ ' className='font'><i className="fa-solid fa-briefcase"></i>Current Location</a>
+                                <h2 className='font'><span className='left-name'>Nabeel</span> Ahmad 00</h2>
+                                <p href='/' className='font'><i className="fa-solid fa-location-dot"></i>Location area</p>
+                                <p href='/ ' className='font'><i className="fa-solid fa-briefcase"></i>Current Location</p>
                                 <p>Experienced occupation: ---</p>
                             </div>
                             <div className='left-edit'>
@@ -22,25 +22,25 @@ const Left = () => {
                             </div>
                         </section>
                         <Form
-                            placeholder='Self-introduction'
-                            name='edit'
+                            text='Self-introduction'
                             label='Fill in self-introduction'
                             class='edit'
                             icon='fa-solid fa-pen'
+                            icon_name='edit'
                         />
                         <Form
-                            placeholder='Working history'
-                            name='addition'
+                            text='Working history'
                             label='Add working history'
                             class='addition'
                             icon='fa-solid fa-square-plus'
+                            icon_name='addition'
                         />
                         <Form
-                            placeholder='Add qualifications'
-                            name='addition'
+                            text='Add qualifications'
                             label='Add qualification'
                             class='addition'
                             icon='fa-solid fa-square-plus'
+                            icon_name='addition'
                         />
                     </div>
                 </Card>

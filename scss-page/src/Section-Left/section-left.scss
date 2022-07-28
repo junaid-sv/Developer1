@@ -1,4 +1,4 @@
-@import "Variables.scss";
+@import "/src/Variable-Global.scss";
 // icon size color
 @mixin icon-general {
   font-size: 12px;
@@ -14,8 +14,12 @@
     .left-center {
       display: flex;
       padding-bottom: 2rem;
-      .left-heading {
-        padding: 18px 34px;
+      .left-profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 120px;
         font-size: 75px;
         background-color: $see_green;
         color: $white;
@@ -30,11 +34,9 @@
           word-spacing: 10px;
           .left-name {
             color: $aqua_light;
-            font-size: 16px;
           }
         }
-        a {
-          display: block;
+        p {
           @include icon-general;
           i {
             padding: 4px 5px 0 10px;
